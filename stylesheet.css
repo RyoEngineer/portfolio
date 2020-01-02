@@ -102,7 +102,9 @@ body {
 .sec_title > .sec_white:before {
   background-color: #fff;
 }
-
+.sec_title > .sec_long:before {
+  width: 4em; 
+}
 @media (min-width: 700px) {/* 1000px以上*/
  h1 {
      font-size: 3.5rem;/* 36px*/
