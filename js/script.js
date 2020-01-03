@@ -1,5 +1,5 @@
 var rellax = new Rellax(' .rellax ');
-new Freezeframe('.gif');
+
 window.onload = function() {
 
     scroll_effect();
@@ -33,20 +33,18 @@ window.onload = function() {
             $("nav").css("display","block");
         }
     }
+};
+$('.color_filter').hover(
+function() {
+    $(this).find(".work_description").fadeIn(200);
+    //マウスカーソルが重なった時の処理
 
-  };
-  $('.color_filter').hover(
-    function() {
-        $(this).find(".work_description").fadeIn(200);
-        //マウスカーソルが重なった時の処理
- 
-    },
-    function() {
-        $(this).find(".work_description").hide();
-        //マウスカーソルが離れた時の処理
- 
-    }
-);
+},
+function() {
+    $(this).find(".work_description").hide();
+    //マウスカーソルが離れた時の処理
+
+});
 
 
 $(function(){

@@ -27,7 +27,7 @@ body p{
 
 h1 {
  font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
- font-size: calc(3.3rem + ((1vw - 0.64rem) * 2.1429));/* 24px~36pxで可変*/
+ font-size: calc(3.0rem + ((1vw - 0.64rem) * 2.1429));/* 24px~36pxで可変*/
  line-height: 1.3;
 }
 
@@ -382,9 +382,7 @@ nav{
 .color_filter:hover .work_logo{
   opacity: 0.5;
 }
-.gif_description{
-  background-color: rgba(32, 32, 32, 0.5);
-}
+
 .skill_used{
   height: 30px;
   width:40px;
